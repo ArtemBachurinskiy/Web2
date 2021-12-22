@@ -1,0 +1,90 @@
+body
+{
+    border: 1px solid rgb(0, 3, 161);
+    border-radius: 7px;
+    background-color: rgb(208, 220, 255);
+    text-align: center;
+    font-family: serif;
+}
+
+header
+{
+    border: inherit;
+    border-radius: inherit;
+    background-color: rgba(133, 156, 255, 0.596);
+    color: rgb(0, 3, 161);
+    font-size: 26px;
+}
+
+#plot_and_form {
+    text-align: center;
+    margin: 10px;
+}
+
+#plot-svg {
+    border: 1px solid rgb(0, 3, 161);
+    border-radius: 7px;
+    background: white;
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.plot-figure {
+    fill: blue;
+    fill-opacity: 0.4;
+    stroke: blue;
+}
+
+form div {
+    margin: 30px;
+}
+
+#inputs {
+    width: 455px;
+    padding: 10px;
+    display: inline-block;
+}
+
+input[type=text] {
+    text-align: center;
+}
+
+button {
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 7px;
+    border: 1px solid rgb(0, 3, 161);
+    cursor: pointer;
+    background: rgba(133, 156, 255, 0.596);
+    color: rgb(0, 3, 161);
+    font-size: medium;
+}
+
+.result_table
+{
+    table-layout: fixed;
+    width: 50%;
+    white-space: nowrap;
+    margin: 3px auto;
+    border-collapse: collapse;
+    border: 3px solid rgba(62, 71, 165, 0.8);
+    text-align: center;
+    align-content: center;
+    padding: 3px;
+}
+
+td, th
+{
+    padding: 3px;
+    border: 1px solid rgba(62, 71, 165, 0.8);
+}
+
+th
+{
+    background: rgba(133, 156, 255, 0.596);
+}
+
+tr:hover {
+    background-color: #ffff99;
+}

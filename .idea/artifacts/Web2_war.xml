@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="Web2:war">
+    <output-path>$PROJECT_DIR$/Web2-main/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Web2</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Web2-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Web2:war exploded" />
+    </root>
+  </artifact>
+</component>
